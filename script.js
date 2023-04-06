@@ -1,134 +1,132 @@
-let palavras = [
-  "amigo",
-  "banana",
-  "cachorro",
-  "dado",
-  "elefante",
-  "futebol",
-  "guitarra",
-  "hipopótamo",
-  "igreja",
-  "janela",
-  "kanguru",
-  "lampião",
-  "mochila",
-  "nariz",
-  "ouro",
-  "piano",
-  "queijo",
-  "rato",
-  "sapato",
-  "tartaruga",
-  "uva",
-  "vassoura",
-  "xadrez",
-  "yak",
-  "zangão",
-  "abóbora",
-  "baú",
-  "cacto",
-  "dente",
-  "espada",
-  "foca",
-  "girafa",
-  "harpia",
-  "ilha",
-  "jacaré",
-  "kombi",
-  "lagarto",
-  "macaco",
-  "navio",
-  "ovelha",
-  "palmeira",
-  "queimada",
-  "raposa",
-  "sapo",
-  "tigre",
-  "urso",
-  "valsa",
-  "xícara",
-  "yoga",
-  "zebra",
-  "amarelo",
-  "biscoito",
-  "caminhão",
-  "destino",
-  "escova",
-  "fósforo",
-  "geladeira",
-  "hidrante",
-  "imposto",
-  "jabuti",
-  "ketchup",
-  "limão",
-  "maracujá",
-  "navalha",
-  "oliveira",
-  "pão",
-  "queimadura",
-  "raquete",
-  "sabonete",
-  "tábua",
-  "urubu",
-  "valente",
-  "xarope",
-  "zangado",
-  "amizade",
-  "beleza",
-  "calor",
-  "dor",
-  "economia",
-  "felicidade",
-  "gosto",
-  "humor",
-  "inverno",
-  "jardim",
-  "karma",
-  "liberdade",
-  "música",
-  "natureza",
-  "ouro",
-  "paz",
-  "qualidade",
-  "risada",
-  "saúde",
-  "tempo",
-  "união",
-  "verdade",
-  "xenofobia",
-  "yoga",
-  "zelo",
-  "ampliar",
-  "balançar",
-  "caçar",
-  "dançar",
-  "embelezar",
-  "ferver",
-  "gritar",
-  "hipnotizar",
-  "incendiar",
-  "jogar",
-  "kafkiano",
-  "lamentar",
-  "maquiar",
-  "namorar",
-  "odiar",
-  "passear",
-  "querer",
-  "rir",
-  "saltar",
-  "torturar",
-  "usar",
-  "verificar",
-  "xeretar",
-  "youtuber",
-  "zelar",
-  "alimentar",
-  "brilhar",
-  "conversar",
-  "dormir",
-  "emocionar",
-  "fazer",
+const palavras = [
+  "Neymar",
+  "Anitta",
+  "Whindersson Nunes",
+  "Gisele Bündchen",
+  "Fernanda Montenegro",
+  "Will Smith",
+  "Angelina Jolie",
+  "Brad Pitt",
+  "Leonardo DiCaprio",
+  "Jennifer Lawrence",
+  "Banana",
+  "Abacaxi",
+  "Mesa",
+  "Cadeira",
+  "Computador",
+  "Telefone",
+  "Carro",
+  "Avião",
+  "Bicicleta",
+  "Skate",
+  "Pizza",
+  "Hamburguer",
+  "Arroz",
+  "Feijão",
+  "Pão",
+  "Queijo",
+  "Chocolate",
+  "Refrigerante",
+  "Cerveja",
+  "Vinho",
+  "Água",
+  "Cachorro",
+  "Gato",
+  "Passarinho",
+  "Leão",
+  "Tigre",
+  "Girafa",
+  "Zebra",
+  "Elefante",
+  "Galinha",
+  "Vaca",
+  "Cavalo",
+  "Porco",
+  "Pato",
+  "Árvore",
+  "Flor",
+  "Grama",
+  "Sol",
+  "Lua",
+  "Estrela",
+  "Mar",
+  "Rio",
+  "Montanha",
+  "Deserto",
+  "Neve",
+  "Chuva",
+  "Vento",
+  "Trovão",
+  "Bebida",
+  "Comida",
+  "Cinema",
+  "Música",
+  "Esporte",
+  "Livro",
+  "Televisão",
+  "Internet",
+  "Jogo",
+  "Trabalho",
+  "Estudo",
+  "Dinheiro",
+  "Família",
+  "Amigos",
+  "Amor",
+  "Viagem",
+  "Férias",
+  "Praia",
+  "Campo",
+  "Cidade",
+  "Mundo",
+  "Universo",
+  "Coração",
+  "Sonho",
+  "Realidade",
+  "Fantasia",
+  "Imaginação",
+  "Memória",
+  "Pensamento",
+  "Emoção",
+  "Sentimento",
+  "Alegria",
+  "Tristeza",
+  "Raiva",
+  "Medo",
+  "Surpresa",
+  "Esperança",
+  "Felicidade",
+  "Amizade",
+  "Amor",
+  "Carinho",
+  "Respeito",
+  "Gratidão",
+  "Perdão",
+  "Paz",
+  "Harmonia",
+  "Equilíbrio",
+  "Beleza",
+  "Verdade",
+  "Justiça",
+  "Libertação",
+  "Transformação",
+  "Renovação",
+  "Crescimento",
+  "Desenvolvimento",
+  "Progresso",
+  "Sucesso",
+  "Realização",
+  "Conquista",
+  "Vitória",
+  "Fracasso",
+  "Derrota",
+  "Desafio",
+  "Oportunidade",
+  "Sorte",
+  "Destino",
+  "Acaso",
+  "Espera",
+  "Surpresa",
+  "Imprevisto",
   "gostar",
 ];
 
@@ -140,8 +138,28 @@ let pontosDupla1 = 0;
 let pontosDupla2 = 0;
 
 let inputNomeDupla = document.getElementById("nomeJogador");
+let tempoRestante = 60;
+let countdown;
 
 inputNomeDupla.placeholder = "Digite o nome da dupla 1";
+
+console.log(countdown)
+
+function iniciarContagem() {
+  clearInterval(countdown); // limpa o intervalo anterior, se houver
+  tempoRestante = 60; // reinicia o tempo
+  countdown = 0;
+  document.getElementById("tempoRestante").innerHTML = tempoRestante;
+  countdown = setInterval(() => {
+    tempoRestante--;
+    document.getElementById("tempoRestante").innerHTML = tempoRestante;
+    if (tempoRestante === 0) {
+      alert("Tempo esgotado, vez da próxima dupla!")
+      clearInterval(countdown);
+      trocarVez();
+    }
+  }, 1000);
+}
 
 // função para adicionar jogadores às duplas
 function adicionarJogador() {
@@ -168,19 +186,8 @@ function adicionarJogador() {
 
 // função para selecionar uma palavra aleatória
 function selecionarPalavra() {
-  let tempoRestante = 60;
   let palavra = palavras[Math.floor(Math.random() * palavras.length)];
   document.getElementById("palavraAtual").innerHTML = palavra;
-
-  let countdown = setInterval(() => {
-    tempoRestante--;
-    document.getElementById("tempoRestante").innerHTML = tempoRestante;
-    if (tempoRestante === 0) {
-      alert("Tempo esgotado, vez da próxima dupla!")
-      clearInterval(countdown);
-      trocarVez();
-    }
-  }, 1000);
 }
 
 
@@ -202,12 +209,18 @@ document.getElementById("correct-button").addEventListener("click", acertou);
 
 // função para trocar a vez das duplas
 function trocarVez() {
-  let vezDupla1 = document.getElementById("dupla1vez");
-  let vezDupla2 = document.getElementById("dupla2vez");
-  vezDupla1.checked = !vezDupla1.checked;
-  vezDupla2.checked = !vezDupla2.checked;
-  selecionarPalavra();
+  iniciarContagem();
+  if (dupla1.length === 2) {
+    alert(`Vez da dupla ${dupla2[0]} e ${dupla2[1]}`);
+    document.getElementById("inputPalavra").disabled = false;
+    document.getElementById("botaoEnviar").disabled = false;
+  } else {
+    alert(`Vez da dupla ${dupla1[0]} e ${dupla1[1]}`);
+    document.getElementById("inputPalavra").disabled = false;
+    document.getElementById("botaoEnviar").disabled = false;
+  }
 }
+
 
 // Mostrar dupla atual
 function mostrarDuplaAtual() {
@@ -225,6 +238,7 @@ function iniciarJogo() {
     document.getElementById("jogo").style.display = "block";
     mostrarDuplaAtual();
     selecionarPalavra();
+    iniciarContagem()
   } else {
     alert("Adicione todos os jogadores antes de iniciar o jogo!");
   }
