@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Time's up - Adivinhe a palavra </title>
+</head>
+<body>
+  <div id="adicionarJogador">
+      <h1>
+        Time's up - Adivinhe a palavra 
+      </h1>
+      <h2>Adicione os jogadores às duplas:</h2>
+      <label for="nomeJogador">Nome da dupla:</label>
+      <input type="text" id="nomeJogador">
+      <button onclick="adicionarJogador()">Adicionar</button>
+      <br><br>
+      <p>Dupla 1: <span id="dupla1"></span></p>
+      <p>Dupla 2: <span id="dupla2"></span></p>
+      <button onclick="iniciarJogo()" id="iniciarJogoButton">Iniciar jogo</button>
+    </div>
+    <div id="jogo" style="display: none;">
+      <h1>Jogo das Palavras</h1>
+      <h2>É a vez da dupla:</h2>
+      <input type="radio" name="vezDupla" id="dupla1vez" checked>
+      <label for="dupla1vez"><span id="dupla1">Dupla 1</span></label>
+      <input type="radio" name="vezDupla" id="dupla2vez">
+      <label for="dupla2vez"><span id="dupla2">Dupla 2</span></label>
+      <div id="duplaAtual"></div>
+      <br>
+      <h3>Tempo restante:</h3>
+      <div id="tempoRestante"></div>
+      <br>
+      <h2>Palavra atual:</h2>
+      <p id="palavraAtual"></p>
+      <button id="correct-button">Acertou!</button>
+      <h2>Pontuação:</h2>
+      <p>Dupla 1: <span id="pontosDupla1">0</span></p>
+      <p>Dupla 2: <span id="pontosDupla2">0</span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

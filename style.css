@@ -1,0 +1,105 @@
+/* Estilo para a página inteira */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #fce5cd;
+  color: #333;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+
+/* Estilo para o formulário de adicionar jogadores */
+#adicionarJogador {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#adicionarJogador h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#adicionarJogador label {
+  font-size: 18px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+#adicionarJogador input[type="text"] {
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+button {
+  font-size: 18px;
+  background-color: #f9c74f;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+#iniciarJogoButton {
+  background-color: #2a962a;
+}
+
+#adicionarJogador p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#adicionarJogador span {
+  font-weight: bold;
+}
+
+/* Estilo para o jogo */
+#jogo {
+  display: none;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#jogo h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#jogo input[type="radio"] {
+  display: none;
+}
+
+#jogo label {
+  font-size: 18px;
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid #f9c74f;
+  color: #f9c74f;
+  cursor: pointer;
+}
+
+#jogo label:hover,
+#jogo input[type="radio"]:checked+label {
+  background-color: #f9c74f;
+  color: #fff;
+}
+
+#jogo p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
